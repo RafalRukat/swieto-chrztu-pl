@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Chrześcijańska Polska wobec UE</title>
+</head>
+<body>
+<div class="wrapper">
+    <img src="https://swietochrztupolski.pl/wp-content/uploads/2023/03/CI-wersja-podstawowa_granat-mocny-zl.png" alt="Logo CI" class="logo menu__organizer">
+<section class="welcome">
+    <div class="welcome__cover">
+        <div class="welcome__phrase-container">
+        <h3 class="welcome__invitation-text">Uczelnia Collegium Intermarium zaprasza na:</h3>
+        </div>
+        <div class="welcome__phrase-container">
+        <h3 class="welcome__series-title">II konferencję z okazji Święta Chrztu Polski</h3>
+        </div>
+        <div class="welcome__phrase-container">
+            <h1 class="welcome__edition-title">Chrześcijańska Polska wobec UE</h1>
+        </div>
+        <div class="welcome__phrase-container">
+            <h2 class="welcome__edition-subtitle">Co z chrześcijańskiego dziedzictwa możemy wnieść w struktury UE?</h2>
+        </div>
+    </div>
+</section>
+<section id="menu" class="menu">
+    <nav>
+        <ul class="menu__list">
+            <li class="menu__item menu__about">O konferencji</li>
+            <li class="menu__item menu__schedule">Program</li>
+            <li class="menu__item menu__contact">Kontakt</li>
+            <li class="menu__item menu__register">Zapisz się</li>
+        </ul>
+    </nav>
+</section>
+<section id="schedule" class="schedule window">
+
+    <span class="schedule__cancel-button cancel-button">X</span>
+
+    <h1 class="schedule__title">Program konferencji</h1>
+
+    <div class="schedule__item">
+        <p class="schedule__time">10:00</p>
+        <p class="schedule__speech-title">Otwarcie Konferencji</p>
+        <img src="https://collegiumintermarium.org/wp-content/uploads/2021/07/xBartosz-Lewandowski-Profil.jpg.pagespeed.ic.kQ974IOzpH.webp" alt="" class="schedule__img">
+        <p class="schedule__speaker-name">JM dr Bartosz Lewandowski</p>
+        <p class="schedule__speaker-title">rektor Collegium Intermarium</p>
+    </div>
+
+    <div class="schedule__item">
+        <p class="schedule__time">10:15</p>
+        <p class="schedule__speech-title">Sens ustanowienia święta chrztu Polski po 4 latach</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Jan_Klawiter_Sejm_2016.JPG/1200px-Jan_Klawiter_Sejm_2016.JPG" alt="" class="schedule__img">
+        <p class="schedule__speaker-name">r Jan Klawiter</p>
+        <p class="schedule__speaker-title">poseł-inicjator ustawy o święcie chrztu Polski</p>
+    </div>
+
+    <div class="schedule__item">
+        <p class="schedule__time">10:30</p>
+        <p class="schedule__speech-title">„Ecclesia in Europa” – europejski testament św. Jana Pawła II</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Marek_Jurek_Sejm_2016.JPG/254px-Marek_Jurek_Sejm_2016.JPG" alt="" class="schedule__img">
+        <p class="schedule__speaker-name">Marszałek Marek Jurek</p>
+        <p class="schedule__speaker-title">b. poseł do PE</p>
+    </div>
+
+    <div class="schedule__item">
+        <p class="schedule__time">11:00</p>
+        <p class="schedule__speech-title">Dlaczego Polska nie ewangelizuje krajów UE?</p>
+        <img src="https://kognitywistyka.kul.pl/wp-content/uploads/2021/06/maxresdefault-1.jpg" alt="" class="schedule__img">
+        <p class="schedule__speaker-name">dr hab. Artur Mamcarz-Plisiecki</p>
+        <p class="schedule__speaker-title"></p>
+    </div>
+
+    <div class="schedule__item">
+        <p class="schedule__time">11:30</p>
+        <p class="schedule__speech-title">przerwa kawowa, Angelus Dominus</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Annuncation_-_Alessandro_Allori.jpg/227px-Annuncation_-_Alessandro_Allori.jpg" alt="" class="schedule__img">
+        <p class="schedule__speaker-name"></p>
+        <p class="schedule__speaker-title"></p>
+    </div>
+
+    <div class="schedule__item">
+        <p class="schedule__time">12:15</p>
+        <p class="schedule__speech-title">Artykuł 17 Traktatu o funkcjonowaniu Unii Europejskiej – fasada dialogu czy podstawa praw
+            Kościoła na forum unijnym</p>
+        <img src="https://politologia.uksw.edu.pl/wp-content/uploads/2021/03/piotr-mazurkiewicz.jpg" alt="" class="schedule__img">
+        <p class="schedule__speaker-name">x. dr hab. Piotr Mazurkiewicz</p>
+        <p class="schedule__speaker-title"></p>
+
+    </div>
+
+    <div class="schedule__item">
+        <p class="schedule__time">13:00</p>
+        <p class="schedule__speech-title">Ile z chrześcijańskiej Europy zostało jeszcze na Starym Kontynencie?</p>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Patryk_Jaki_November_2022.jpg/316px-Patryk_Jaki_November_2022.jpg" alt="" class="schedule__img">
+        <p class="schedule__speaker-name">dr Patryk
+            Jaki
+        </p>
+        <p class="schedule__speaker-title">poseł do PE</p>
+    </div>
+
+    <div class="schedule__item">
+        <p class="schedule__time">13:45</p>
+        <p class="schedule__speech-title">Wieniec z gwiazd dwunastu? Ideowe korzenie oraz współczesne owoce projektu europejskiego</p>
+
+        <img src="https://collegiumintermarium.org/wp-content/uploads/2021/07/xJerzy-Kwasniewski-Profil.jpg.pagespeed.ic.xsia2xomvM.webp" alt="" class="schedule__img">
+        <p class="schedule__speaker-name">adw. Jerzy Kwaśniewski</p>
+        <p class="schedule__speaker-title">Prezes Instytutu na Rzecz Kultury Prawnej Ordo Iuris</p>
+    </div>
+
+    <div class="schedule__item">
+        <p class="schedule__time">14:30</p>
+        <p class="schedule__speech-title">Zakończenie konferencji, obiad</p>
+        <img src="" alt="" class="schedule__img">
+    </div>
+
+</section>
+    <section class="about window">
+        <span class="about__cancel-button cancel-button">X</span>
+        <h1 class="about__title title">Chrześcijańska Polska wobec UE</h1>
+        <div class="about__content">
+            <p>Podobnie jak w ubiegłym roku, tak i w tym, chcemy w naszej uczelni uczcić młode, ale nawiązujące do samych korzeni naszego państwa Święto Chrztu Polski. Przypomnijmy, że zostało ono ustanowione ustawą sejmową w 2019 na pamiątkę uczczenia symbolicznej daty chrztu władcy Polan Mieszka I.
+            </p>
+            <p>Chrzest księcia Mieszka I zapoczątkował nie tylko proces chrystianizacji i budowy struktur kościelnych na ziemiach polskich. Miał on także przełomowe znaczenie polityczne, kulturowe i tożsamościowe. Był to potężny impuls rozwojowy, który umacniał władzę księcia, wspierał integrację młodego organizmu państwowego, dawał mocniejsze podstawy suwerenności i bezpieczeństwa.
+            </p>
+            <p>Przyjęcie chrztu w obrządku łacińskim wprowadziło rodzące się wówczas państwo polskie w krąg państw Europy Zachodniej. Rozpoczęło proces przejmowania wzorców kulturowych i największych zdobyczy zachodniej cywilizacji. Począwszy od chrztu Mieszka I polska kultura, historia i tożsamość narodowa rozwijały się na fundamencie tradycji chrześcijańskiej.
+            </p>
+            <p>Wierzymy, że tak będzie dopóty, dopóki będzie toczył się los dziejów. Wyboru dokonanego przed tysiącem ponad lat nie zmienią żadne dziejowe burze – ani systemowe kwestionowane chrześcijaństwa i zwalczanie go w przestrzeni publicznej, ani próby systemowej demoralizacji dzieci i młodszego pokolenia, ani sankcjonowane powagą autorytetów sankcjonowanie `braku możliwości rozróżniania między dobrem a złem.
+            </p>
+            <p>W Collegium Intermarium jesteśmy przekonani, że najważniejszym działaniem, które doprowadzi do odnowy chrześcijaństwa, poza, co zawsze powinno być najważniejsze i na pierwszym miejscu, powierzaniem Narodu Maryi i zabieganiu o osobista świętość w codzienności, jest, jako następstwo tych priorytetów, służba prawdzie, ukazywanie jej pociągającego blasku. To właśnie robimy w naszej Uczelni, jedny z elementów tej pracy jest konferencja, na którą serdecznie Państwa zapraszamy.
+            </p>
+            <p>Spotkajmy się 22 kwietnia w murach naszej Uczelni w Warszawie, przy ul Bagatela 12. Naszej – ponieważ jest to także Państwa Uczelnia – słuzy ona w swej codziennej pracy całemu Narodowi. Dlatego chcemy razem nie tylko poznawać prawdę o naszych dziejach, rozpoznawać to, co dziś zagraża bytowi narodowemu i szukać dróg wyjścia, ale też rozmawiać między sobą, choćby w czasie posiłku, na który zapraszamy po zakończweniu Konferencji.
+            </p>
+            <p>Ufamy, że nasze spotkanie będzie owocne, że CI będzie dla Państwa miejscem domowym, że będą się tu Państwo czuli u siebie. Zapraszamy!
+            </p>
+        </div>
+    </section>
+    <section class="contact window">
+        <span class="contact__cancel-button cancel-button">X</span>
+        <h1 class="contact__title">Skontatuj się z nami!</h1>
+        <p class="contact__data">Koordynator projektu: <strong>Arkadiusz Robaczewski</strong></p>
+        <p class="contact__data">E-mail: <strong>kontakt@cintermarium.org</strong></p>
+        <p class="contact__data">tel: <strong>22 110 30 91</strong></p>
+    </section>
+<section class="register window">
+    <span class="register__cancel-button cancel-button">X</span>
+    <div class="register__form-container">
+        <script data-b24-form="inline/78/aglw6l" data-skip-moving="true">
+            (function(w,d,u){
+                var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);
+                var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+            })(window,document,'https://cdn.bitrix24.pl/b19754485/crm/form/loader_78.js');
+        </script>
+    </div>
+</section>
+<section class="organizer window">
+    <span class="organizer__cancel-button cancel-button">X</span>
+    <h1 class="organizer__title">Organizator konferencji</h1>
+    <p class="organizer__description"><strong>Collegium Intermarium</strong> jest uczelnią niepubliczną, działającą pod nadzorem Ministra Edukacji i Nauki, która powstała jako odpowiedź na kryzys życia akademickiego. W czasach, gdy niknie poczucie porządku, celu i sensu, uczelnia ma stały punkt odniesienia – niezmienne idee Prawdy, Dobra i Piękna. Kiedy coraz mniej jest miejsca dla wolnej debaty akademickiej, Collegium Intermarium jest przestrzenią dla naukowców i studentów, którzy nie boją się stawiać poważnych pytań. Podejmowanie odważnych wyzwań jest nie tylko prawem, ale obowiązkiem każdego, kto współtworzy wspólnotę uczelni. Gdy kształcenie staje się masowe, jednowymiarowe i odtwórcze, przypominamy, że celem edukacji jest zawsze integralny rozwój człowieka. W realiach uniwersytetu jego warunkiem jest bezpośrednia współpraca mistrza i ucznia.</p>
+</section>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

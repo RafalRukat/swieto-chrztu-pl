@@ -1,0 +1,338 @@
+/*
+ Theme Name: Święto Chrztu Polski
+ Theme URI: https://swietochrztupolski.pl/
+ Author: Rafał Rukat
+ Author URI: https://github.com/RafalRukat
+ Description: Strona konferencji organizowanej przez Uczelnię Collegium Intermarium
+ Version: 1.0.1
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kulim Park', sans-serif;
+    background-image: url('https://swietochrztupolski.pl/wp-content/uploads/2023/03/cover__background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 25% top;
+    overflow: hidden;
+
+}
+
+
+.wrapper {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+}
+
+.logo {
+    position: fixed;
+    left: 50%;
+    top: 2vh;
+    transform: translateX(-50%);
+    z-index: 2;
+    display: block;
+    width: 30vw;
+}
+
+.welcome {
+    color: #040;
+}
+
+.welcome__cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.6) 50%, rgba(212,33,61,0.6) 100%);
+    text-align: center;
+}
+
+.welcome__phrase-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 80px;
+}
+
+.welcome__invitation-text, .welcome__series-title {
+    font-size: 4rem;
+}
+
+.welcome__edition-title {
+    font-size: 4rem;
+}
+
+.welcome__edition-subtitle {
+    font-size: 4rem;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+    background-color: #0005;
+}
+
+.menu__list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    height: 100vh;
+    padding: 80px 0;
+    align-items: center;
+
+
+}
+
+.menu__item {
+    flex-basis: 50%;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-size: 4em;
+}
+
+.menu__item:hover {
+    color: darkred;
+}
+
+.schedule, .window {
+    position: fixed;
+    display: none;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 90vh;
+    width: 90vw;
+    padding: 160px 40px;
+    border: 1px white solid;
+    border-radius: 50px;
+    z-index: 3;
+    color: white;
+    overflow-y: scroll;
+    background-color: #000c;
+}
+
+.window::-webkit-scrollbar {
+    width: 0px;
+    background-color: transparent;
+}
+
+.schedule__cancel-button, .cancel-button {
+    position: fixed;
+    top: 5%;
+    right: 5%;
+    border: 1px white solid;
+    border-radius: 20%;
+    font-size: 4em;
+    padding: 20px 40px;
+    cursor: pointer;
+    z-index: 3;
+}
+
+
+.schedule__title {
+    padding: 5%;
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.schedule__item {
+    padding: 40px;
+}
+
+
+.schedule__time {
+    text-align: center;
+    padding: 20px;
+}
+
+.schedule__speech-title {
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+}
+
+.schedule__img {
+    display: block;
+    padding: 20px;
+    margin: 0 auto;
+    width: 600px;
+    border-radius: 100px;
+
+}
+
+.schedule__speaker-name {
+    font-size: 1em;
+    text-align: center;
+    color: goldenrod;
+
+}
+
+.schedule__speaker-title {
+    font-size: 0.9em;
+    text-align: center;
+    color: goldenrod;
+}
+
+.about {
+    color: white;
+    padding: 160px 80px;
+}
+
+.about__title, .contact__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+    margin-bottom: 100px;
+}
+
+.about__content p {
+    margin-bottom: 80px;
+    text-align: justify;
+}
+
+.contact {
+    color: white;
+    padding: 160px 80px;
+}
+
+.contact strong {
+    color: goldenrod;
+}
+
+.contact__title {
+    margin-bottom: 160px;
+}
+
+.contact__data {
+    font-size: 2em;
+    margin-bottom: 80px;
+}
+
+.register {
+    padding: 80px 80px;
+}
+
+.register__form-container {
+position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 80%;
+}
+
+.b24-form-control-container {
+    margin-bottom: 100px !important;
+}
+
+.organizer {
+    padding: 160px 120px;
+}
+
+.organizer strong {
+    color: goldenrod;
+}
+
+.organizer__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+    margin-bottom: 160px;
+}
+
+.organizer__description {
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+
+@media (orientation: landscape) {
+
+    .welcome__invitation-text, .welcome__series-title {
+        font-size: 2rem;
+    }
+
+    .welcome__edition-title {
+        font-size: 2rem;
+    }
+
+    .welcome__edition-subtitle {
+        font-size: 2rem;
+    }
+
+    .logo {
+        width: 17vw;
+    }
+
+    .b24-form-control-container {
+        margin-bottom: 0 !important;
+    }
+
+    .b24-form-wrapper {
+        background-color: transparent !important;
+    }
+
+    .schedule__img {
+        width: 200px;
+    }
+
+
+    .schedule__speech-title {
+        font-size: 1em;
+    }
+
+
+    .schedule__speaker-name {
+        font-size: 1em;
+    }
+
+
+    .about__content p {
+        margin-bottom: 20px;
+        line-height: 1.5;
+    }
+
+    .cancel-button {
+        font-size: 2rem;
+    }
+
+    .menu__item {
+            font-size: 2em;
+        }
+
+    .menu__list {
+            padding: 20px 0;
+        }
+
+    .contact__title {
+        margin-bottom: 80px;
+        font-size: 1.2em;
+    }
+
+    .contact__data {
+        font-size: 1em;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+}
